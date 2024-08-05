@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: navy;
+}
+
+p {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: navy;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid deepskyblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: skyblue;
+}
+
+.main {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid deepskyblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+}
+
+a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    color: navy;
+    background-color: skyblue;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    background-color: lightskyblue;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: navy;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.main form{
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    color: navy;
+}
+
+.main input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    background-color: lightskyblue;
+    color: navy;
+    width: 50%;
+}
+.main input[type="submit"] {
+    background-color: deepskyblue;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    border: 1px solid deepskyblue;
+    width: 40%;
+}
+
+.main input[type="submit"]:hover {
+    background-color: lightskyblue;
+    color: navy;
+}
+
+.main ol, ul {
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    color: navy;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.main li {
+    margin-bottom: 10px;
+}
+
+.main .logic {
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    color: navy;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid deepskyblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: skyblue;
+}
