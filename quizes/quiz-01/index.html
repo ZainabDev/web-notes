@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Task 1 </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1> Question 1 </h1>
+    <p>
+        Suppose we have 3 links like google, Facebook and YouTube. User
+        when click on button the URL and link title should be change using JavaScript.
+        For example:
+        Google link convert into Home
+    </p>
+    <div class="main">
+        <a href="https://google.com"> Google </a>
+        <a href="https://facebook.com"> FaceBook </a>
+        <a href="https://youtube.com"> Youtube </a>
+        <button onclick="changeAttribute()">Change Link</button>
+    </div>
+
+    <h1> Question 2 </h1>
+    <p>
+        Modify question 1, create a simple google link, make 2 input fields
+        like
+        Name
+        URL
+        When user enter name and URL then the google link should be converted.
+    </p>
+    <div class="main">
+        <a href="https://google.com" id="q2"> Google </a>
+        <form onsubmit="changeGoogle(); return false;">
+            <label> Name </label> <br>
+            <input type="text" /> <br>
+
+            <label> URL </label> <br>
+            <input type="url" /> <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <h1> Question 3 </h1>
+    <p>
+        Suppose you have a list like <br />
+        1. Coffee <br />
+        2. Tea <br />
+        3. Coca Cola <br />
+        On button click this list style should be converted to Unorder list like   <br />
+        ▪ Coffee <br />
+        ▪ Tea <br />
+        ▪ Coca Cola  <br />
+    </p>
+    <div class="main">
+        <ol>
+            <li> Coffee </li>
+            <li> Tea </li>
+            <li> Coca Cola </li>
+        </ol>
+        <button onclick="changeListStyle()">Change List Style</button>
+    </div>
+
+    <h1> Question 4 </h1>
+    <p>
+        Create 5 div and use one class. Apply some style on this class.
+        Apply a logic that when user click on button 3 div style should be change.
+    </p>
+    <div class="main">
+        <div class="logic"> Div 1 </div>
+        <div class="logic"> Div 2 </div>
+        <div class="logic"> Div 3 </div>
+        <div class="logic"> Div 4 </div>
+        <div class="logic"> Div 5 </div>
+        <button onclick="changeDiv3Style()">Change Div 3 Style</button>
+    </div>
+</body>
+</html>
