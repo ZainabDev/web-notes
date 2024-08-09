@@ -29,7 +29,7 @@
 <details>
   <summary><strong>📖 Details</strong></summary>
 
-  **Description:** In this quiz, you'll design an e-commerce store layout using HTML and CSS, based on a given reference image. The task will test your ability to translate visual designs into code.
+  **Description:** This quiz focuses on designing an e-commerce store layout using HTML and CSS, based on a given reference image hence testing your ability to translate visual designs into code.
 
   - **[View Question](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/QUESTIONS.md)**
   - **[View Solution Index HTML](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/index.html)**
@@ -38,12 +38,11 @@
   - **[View Solution Contact HTML](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/contact.html)**
   - **[View Solution Checkout HTML](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/checkout.html)**
   - **[View Solution CSS](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/style.css)**
-  - **[View Solution JavaScript](https://github.com/ZainabDev/web-notes/blob/main/quizes/quiz-02/script.js)**
   - **[View Output](https://zainabdev.github.io/web-notes/quizes/quiz-02/)**
 
 </details>
 
-> **[!NOTE]**  
+> [!NOTE]
 > The solutions will be uploaded soon after they are graded.
 
 ### ⬆️ [Back to Top](#quiz-index)
