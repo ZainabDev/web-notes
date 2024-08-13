@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3e2723;
+    color: white;
+    font-size: 14px;
+}
+
+.top-bar .sale a, .top-bar .accounts a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight:700;
+}
+
+.name-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #a1887f;
+    color: #333;
+}
+
+.contact img, .search-bar img {
+    vertical-align: middle;
+}
+
+.contact p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.wrapper {
+    flex: 1;
+    text-align: center;
+}
+
+.wrapper h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar .bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #6d4c41;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bar .search {
+    padding: 8px;
+    border: none;
+    background-color: #a1887f;
+    border: 1px solid #6d4c41;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-bar .search img {
+    width: 20px;
+}
+
+nav {
+    background-color: #6d4c41;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #a1887f;
+    color: white;
+}
+
+.categories {
+    text-align: center;
+    padding: 20px;
+    background-color: #a1887f;
+}
+
+.categories-list {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories-list button {
+    width: 100px;
+    height: 50px;
+    background-color: #6d4c41;
+    color: white;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px; 
+    flex: 0 1 calc(14.333% - 4px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.categories-list button:hover {
+    background-color: #6d4c41; 
+    transform: scale(1.1); 
+}
+
+.categories h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.product {
+    border: 1px solid #6d4c41;
+    height: 470px;
+    width: 315px;
+    display: inline-block;
+    margin: 3px 3.2px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: -7px 7px;
+}
+
+.offer-section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offers h1, h2 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.offers h2 {
+    font-size: 22px;
+}
+
+.rating {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -20px;
+}
+
+.rating img {
+    width: 20px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    margin-top: -11px;
+}
+
+.pricing .old-pricing {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #6d4c41;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.product button:hover {
+    background-color: #6d4c41; 
+    transform: scale(1.1); 
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px; 
+}
+
+.footer-wrapper-headings {
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.column h2 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.column ul, .column .contact-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.column .link-icons li, .column .contact-icons li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    text-align: start;
+}
+
+.column .link-icons li::before {
+    content: ""; 
+    background-image: url('assets/caret-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+.contact-icons li {
+    margin: 10px 0;
+    padding-left: 40px;
+    position: relative;
+    text-align: start;
+}
+
+.contact-icons li::before {
+    content: "";
+    width: 25px;
+    height: 25px; 
+    display: inline-block;
+    position: absolute;
+    left: -15px; 
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #a1887f; 
+    border-radius: 0;
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-icons li:nth-child(1)::before {
+    background-image: url('assets/map-pin.png');
+}
+
+.contact-icons li:nth-child(2)::before {
+    background-image: url('assets/envelope.png');
+}
+.contact-icons li:nth-child(3)::before {
+    background-image: url('assets/call.png');
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20%; 
+    padding: 20px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px; 
+}
+
+.social-media-icons img {
+    width: 20px;
+}
+
+.social-media-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px; 
+    height: 35px;
+    border: 1px solid #a1887f; 
+    border-radius: 50%; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.social-media-icons a:hover {
+    background-color: #6d4c41; 
+    transform: scale(1.1); 
+}
+
+.card-payment {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-payment img {
+    width: 40px;
+    height: auto;
+}
